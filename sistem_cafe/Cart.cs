@@ -88,8 +88,7 @@ namespace sistem_cafe
             }
             return total;
 
-            // Atau pake LINQ (lebih singkat):
-            // return items.Sum(x => x.TotalhargaMenu);
+            
         }
 
         // Kosongkan cart (setelah checkout)

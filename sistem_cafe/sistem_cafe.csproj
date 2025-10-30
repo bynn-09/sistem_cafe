@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cardCart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="cardCart.Designer.cs">
+      <DependentUpon>cardCart.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cart.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -68,8 +74,14 @@
     <Compile Include="OrderMenu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="cardCart.resx">
+      <DependentUpon>cardCart.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KonfirmasiPesanan.resx">
+      <DependentUpon>KonfirmasiPesanan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuItemControl.resx">
       <DependentUpon>MenuItemControl.cs</DependentUpon>

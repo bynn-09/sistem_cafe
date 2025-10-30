@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.flowPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.btnLihatKeranjang = new System.Windows.Forms.Button();
@@ -53,12 +54,16 @@
             // 
             // btnLihatKeranjang
             // 
-            this.btnLihatKeranjang.Location = new System.Drawing.Point(645, 6);
+            this.btnLihatKeranjang.BackColor = System.Drawing.Color.Transparent;
+            this.btnLihatKeranjang.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLihatKeranjang.BackgroundImage")));
+            this.btnLihatKeranjang.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnLihatKeranjang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLihatKeranjang.ForeColor = System.Drawing.Color.Transparent;
+            this.btnLihatKeranjang.Location = new System.Drawing.Point(706, 6);
             this.btnLihatKeranjang.Name = "btnLihatKeranjang";
-            this.btnLihatKeranjang.Size = new System.Drawing.Size(75, 23);
+            this.btnLihatKeranjang.Size = new System.Drawing.Size(81, 63);
             this.btnLihatKeranjang.TabIndex = 2;
-            this.btnLihatKeranjang.Text = "button1";
-            this.btnLihatKeranjang.UseVisualStyleBackColor = true;
+            this.btnLihatKeranjang.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 

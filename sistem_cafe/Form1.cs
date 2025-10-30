@@ -71,10 +71,8 @@ namespace sistem_cafe  // GANTI ini sesuai nama project lu!
 
                 // Kasih feedback
                 MessageBox.Show(
-                    menuItem.namaMenu + " berhasil ditambahkan ke keranjang!",
-                    "Sukses",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Information
+                    menuItem.namaMenu + " berhasil ditambahkan ke keranjang!"
+        
                 );
             }
         }
